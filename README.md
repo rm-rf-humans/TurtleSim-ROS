@@ -43,3 +43,17 @@ The `AdvancedTurtleBouncer` class in the `bouncing_turtle.py` file provides the 
 - `update_plot(self, frame)`: Updates the plot of the turtle's trajectory.
 - `start_plot(self)`: Starts the plot in a separate thread.
 - `run(self)`: Runs the bouncing turtle simulation.
+  
+
+## Dependencies
+
+- ROS Noetic
+- `matplotlib` for plotting
+- `geometry_msgs` for handling turtle movement
+- `turtlesim` for the turtle simulation
+
+You can install the necessary Python dependencies using:
+
+```
+pip install matplotlib
+```
